@@ -105,8 +105,6 @@ The architecture diagram below outlines the end-to-end data pipeline from data i
 - PowerBI Integration: Connected Microsoft PowerBI to Azure Synapse to utilize the processed data.
 - Interactive Dashboards: Created insightful and interactive dashboards to visualize key metrics and trends.
 ![PowerBI-dashboard](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/powerBI_1.png)
-![PowerBI-dashboard2](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/powerBI_2.png)
-![PowerBI-dashboard3](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/powerBI_3.png)
 
 ### 🛠️ Technologies Used
 
