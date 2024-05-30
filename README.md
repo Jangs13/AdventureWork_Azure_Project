@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#">
-    <img src="https://github.com/Hamagistral/Azure-AW/assets/66017329/9f2c3cb9-932a-476d-8f3f-9952e1ea111d" alt="Banner" width="720">
+    <img src="https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/powerBI_1.png" alt="Banner" width="720">
   </a>
 
   <div id="user-content-toc">
