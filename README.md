@@ -1,6 +1,6 @@
 <div align="center">
   <a href="#">
-    <img src="https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/powerBI_1.png" alt="Banner" width="720">
+    <img src="https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/images/powerBI_1.png" alt="Banner" width="720">
   </a>
 
   <div id="user-content-toc">
@@ -74,37 +74,37 @@ The architecture diagram below outlines the end-to-end data pipeline from data i
 ### 📤 Data Ingestion
 -  Integration Runtime: Established a secure connection from on-premise SQL Server to Azure using Microsoft Integration Runtime.
 
-![image](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/MIR.png)
+![image](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/images/MIR.png)
 
 - Resource Group Setup: Configured necessary Azure services including Key Vault, Storage Account, Data Factory, Databricks, and Synapse Analytics.
 
-![ressource-group](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/resourcegroup.png)
+![ressource-group](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/images/resourcegroup.png)
 
 - Data Migration: Successfully migrated tables from the on-premise SQL Server to Azure Data Lake Storage Gen2.
 
-![image](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/storageacc.png)
-![df-pipeline](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/synapsepipeline.png)
+![image](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/images/storageacc.png)
+![df-pipeline](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/images/synapsepipeline.png)
 
 <a name="data-transformation"></a>
 ### ⚙️ Data Transformation
 - Data Retrieval: Mounted Azure Blob Storage in Databricks to access raw data from the Data Lake.
 - Data Processing: Utilized Spark in Azure Databricks to perform data cleaning and transformation tasks.
 - Data Storage: Stored the cleaned data in Delta format to optimize performance for subsequent analyses.
-![image](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/Databricks_transformation.png)
+![image](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/images/Databricks_transformation.png)
 
 <a name="data-loading"></a>
 ### 📥 Data Loading
 - Data Warehousing: Loaded the refined data into Azure Synapse Analytics for efficient querying and reporting.
 - Database Connection: Established a connection between Synapse and the data lake to create a robust SQL database.
 
-![synapse-pipeline](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/synapsepipeline2.png)
-![db-synapse](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/synapsedb.png)
+![synapse-pipeline](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/images/synapsepipeline2.png)
+![db-synapse](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/images/synapsedb.png)
 
 <a name="data-reporting"></a>
 ### 📊 Data Reporting
 - PowerBI Integration: Connected Microsoft PowerBI to Azure Synapse to utilize the processed data.
 - Interactive Dashboards: Created insightful and interactive dashboards to visualize key metrics and trends.
-![PowerBI-dashboard](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/powerBI_1.png)
+![PowerBI-dashboard](https://github.com/Jangs13/AdventureWork_Azure_Project/blob/master/images/powerBI_1.png)
 
 ### 🛠️ Technologies Used
 
